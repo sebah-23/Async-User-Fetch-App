@@ -1,0 +1,68 @@
+/* 
+   GLOBAL RESET
+ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*
+   MAIN CONTAINER
+*/
+.container {
+  width: 320px;
+  padding: 25px;
+
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+}
+
+/* =========================
+   TITLE
+========================= */
+.title {
+  margin-bottom: 15px;
+  color: #333333;
+}
+
+/* =========================
+   BUTTON
+========================= */
+.btn {
+  width: 100%;
+  padding: 10px;
+
+  background-color: #000000;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #333333;
+}
+
+/*
+   RESULT BOX
+ */
+.result {
+  margin-top: 15px;
+
+  font-size: 14px;
+  color: #222222;
+  line-height: 1.6;
+}
